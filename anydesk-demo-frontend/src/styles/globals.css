@@ -1,12 +1,15 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0080ff;
+  --foreground: #00ff08;
+  --anydeskRed: #ef443b;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1e1e1e;
+    --backgroundTint: #202020;
+    --foreground: #d8d8d8;
+    --anydeskRed: #ef443b;
   }
 }
 
@@ -34,6 +37,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
 
 @media (prefers-color-scheme: dark) {
   html {

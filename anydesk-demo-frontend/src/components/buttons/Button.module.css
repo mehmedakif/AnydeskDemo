@@ -1,0 +1,59 @@
+/* components/Button.module.css */
+
+.button {
+    padding: 8px 16px;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .positive {
+    background-color: #4ec015;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); 
+  }
+  
+  .negative {
+    background-color: #dd393c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); 
+  }
+  
+  .neutral {
+    background-color: #ffffff;
+    border: 1px solid #cccccc81;  /* Hafif gri bir sınır */
+    font-weight: bold;
+    color: var(--anydeskRed);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); 
+  }
+  
+  .edit {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 11px;
+    width: 100%;
+    height: 20px;
+    color: #fff;
+    background-color: #f3f3f3;
+    color: black;
+  }
+  
+  .edit span {
+    background-color: #f3f3f3;
+    color: black;
+  }
+
+  .edit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
